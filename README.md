@@ -18,7 +18,7 @@
 # 这里只需关注一下outDir和rootDir。outDir是tsc编译后输出的js文件的目录，
 # 这里我把它输出在dist目录，rootDir是源文件的目录，也就是需要被tsc编译的目录 src目录。
 # 4 可以在src目录下编写一个简单的node程序 
-# 5 执行tsc -w 然后我们可以让tsc开启监视模式，根据源文件目录下的文件改变来编译ts文件
+# 5 在nodeService目录下执行tsc -w 然后我们可以让tsc开启监视模式，根据源文件目录下的文件改变来编译ts文件
 # 6 cd 到 dist文件夹下service文件夹 执行 node hello.service.js 即可启动
 
 
